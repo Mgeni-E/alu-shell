@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #script to manage daemon
+
 script=/var/run/my_process.pid
 if [ "$1" == "start" ];
 then
